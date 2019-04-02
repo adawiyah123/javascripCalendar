@@ -1,0 +1,60 @@
+h3.card-header {
+    background: #007bff;
+    color: #FFFF;
+}
+
+.event-assigned {
+    background: #28a745;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.month-jumpper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.month-jumpper select {
+    width: 169px !important;
+    border: none;
+}
+
+td {
+    width: 140px;
+    height: 80px;
+}
+
+td[data-month] {
+    text-align: center;
+}
+
+td p {
+    padding-top: 11px;
+    color: #FFFF;
+    height: 30px;
+    text-overflow: ellipsis;
+    width: 107px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+}
